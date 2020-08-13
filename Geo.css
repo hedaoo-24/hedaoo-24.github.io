@@ -1,0 +1,42 @@
+body {
+    padding: 60;
+    margin: 15;
+    display: grid;
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    /*background-color: black;*/
+  }
+
+html {
+    background: url(https://www.cia.gov/library/publications/the-world-factbook/images/home_world_map.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+
+*, *::before, *::after {
+    box-sizing: border-box;
+    font-family: Gotham Rounded;
+}
+  
+:root {
+    --hue-neutral: 200;
+    --hue-wrong: 0;
+    --hue-correct: 145;
+}  
+  
+p{
+  color: blanchedalmond;
+  font-size: large;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.hide{
+    display:none;
+}
+.show{
+    display:block;
+}

@@ -1,0 +1,42 @@
+body {
+    padding: 60;
+    margin: 15;
+    display: grid;
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    /*background-color: black;*/
+  }
+
+html {
+    background: url(https://lh3.googleusercontent.com/proxy/jFETMfJrDSLD-4Nsvxps0j5vuXhB2PDqPRKcrbF-mQ0ig8-Zb_B-MbODOTqFkK1uKCW9fC9J4itmTwiq8eiPW0Fk77WcCC3w7m2-pfXGfD5UH8ymYn8Dhdt3NEXgwg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+
+*, *::before, *::after {
+    box-sizing: border-box;
+    font-family: Gotham Rounded;
+}
+  
+:root {
+    --hue-neutral: 200;
+    --hue-wrong: 0;
+    --hue-correct: 145;
+}  
+  
+p{
+  color: blanchedalmond;
+  font-size: large;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.hide{
+    display:none;
+}
+.show{
+    display:block;
+}

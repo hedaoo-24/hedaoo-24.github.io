@@ -1,0 +1,24 @@
+html {
+  background: url(https://previews.123rf.com/images/willypd/willypd1407/willypd140700010/29951168-illustration-of-chalkboard-with-math-formula.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+body {
+  padding: 60;
+  margin: 15;
+  display: grid;
+  width: 100vw;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  /*background-color: black;*/
+}
+
+h1{
+  color: blanchedalmond;
+  font-size: large;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
